@@ -4,7 +4,7 @@ const OperatorButton = props => {
   console.log(props);
   return (
     <>
-      <button>{props.operator}</button>
+      <button>{props.operator.char}</button>
     </>
   );
 };
