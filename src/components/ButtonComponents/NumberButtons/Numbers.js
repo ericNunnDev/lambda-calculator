@@ -7,7 +7,7 @@ const Numbers = () => {
 
   return (
     <div>
-      {numberState.map((index, number) => {
+      {numberState.map((number, index) => {
        return <NumberButton key={index} number={number} />
       })}
     </div>

@@ -1,10 +1,10 @@
 import React from "react";
 
 const NumberButton = props => {
-  console.log(props);
+  console.log(props.number);
   return (
     <>
-      <button>{props.number}</button>
+      <button className="number-btn">{props.number}</button>
     </>
   );
 };
